@@ -31,7 +31,7 @@ app.config.from_object('config')
 db.init_app(app)
 migrate = Migrate(app, db)
 
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:5835239@D@localhost:5432/fyyur'
+SQLALCHEMY_DATABASE_URI = 'postgresql://"Enter your psql username here!":"Enter your psql password here!"@localhost:5432/fyyur'
 # Filters.
 
 
