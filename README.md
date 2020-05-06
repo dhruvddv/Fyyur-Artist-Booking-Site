@@ -10,8 +10,7 @@ pip3 install Flask
 
 To start and run the local development server,
 
-1. Initialize and activate a virtualenv:
- conda activate base
+1. Initialize and activate a virtualenv
 
 2. Install the dependencies:
  pip install -r requirements.txt
